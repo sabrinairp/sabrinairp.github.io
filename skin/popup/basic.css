@@ -1,0 +1,96 @@
+/** This script is part of the Popup project **/
+/** septsite.pl | szokart.eu **/
+
+#basic-modal-content {display:none;}
+
+/* Overlay */
+#simplemodal-overlay {background-color:#000; cursor:wait;}
+
+/* Container */
+#simplemodal-container {color:#000; background-color:#ffe51e; padding-top:35px;border: 3px solid #fff;}
+#simplemodal-container {
+height:350px;
+width:380px;
+}
+
+#simplemodal-container .mini-newsletter{ background-color:#FFFEFC; background-image:none; border:0px;}
+#simplemodal-container .mini-newsletter label{ display:none;}
+#simplemodal-container h2{ padding-left:0px; color:#bdbd5b; font-size:20px; text-align:left; font-weight:normal;}
+#simplemodal-container p{ text-align:left; font-family:Calibri; font-size:14px;}
+#simplemodal-container .mini-newsletter .input-box{ margin-top:0px;}
+#simplemodal-container .simplemodal-data {padding:8px; padding-top:40px; }
+#simplemodal-container code {background:#141414; border-left:3px solid #65B43D; color:#bbb; display:block; font-size:12px; margin-bottom:12px; padding:4px 6px 6px;}
+#basic-modal-content .hide-pop{ display:none;}
+#simplemodal-container a.modalCloseImg { display:none; background:url("img/basic/x.png") no-repeat; width:25px; height:29px; display:inline; z-index:3200; position:absolute; top:-15px; right:-16px; cursor:pointer;}
+#simplemodal-container h3 {color:#84b8d9;}
+.block-popup .block-content {padding:8px;}
+#col-left .mini-newsletter #newsletter{ display:none;}
+#col-left .mini-newsletter input{ margin-left:80px;}
+
+#simplemodal-container .block-subscribe .block-title strong{ text-align:left; }
+/*#simplemodal-container .form-subscribe-header{ display:inline-block;}
+#simplemodal-container .input-box{ display:inline-block;}*/
+.adresa{ float:left; font-size:12px; padding-top:3px;}
+#simplemodal-container  .block-subscribe #newsletter { display:inline; margin-left:10px; width:150px; float:left; }
+#simplemodal-container  .actions{ text-align:center; }
+#simplemodal-container p.hide button.button{ }
+#simplemodal-container p.hide button.button:hover > span:after{ width:auto!important;}
+#simplemodal-container .validation-advice{ background:none; }
+#simplemodal-container .block-subscribe .block-title strong{ background:none; padding-left:5px; }
+#simplemodal-container .block{ background-color:transparent; border:0; padding:0;}
+#simplemodal-container .actions{ display:none; float:left; padding-top:0; margin-left:5px; }
+#simplemodal-container .input-box{ display:none; float:left; margin-left:15px;}
+#simplemodal-container button.button{color: #fff;
+    float: none;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;}
+#simplemodal-container .block-title{ padding-top:0px; padding-bottom:0px; text-transform:none;}
+#simplemodal-container .block-title strong{ font-weight:600; font-size:27px; color:#000;}
+#simplemodal-container .form-subscribe-header{ margin-bottom: 5px;
+    margin-top: 10px;}
+	#simplemodal-container .field.input-box{ padding-top:10px;}
+.modalCloseImg{ display:none;}
+a.simplemodal-close{ width:100%; text-align:center; float:left; color:#000; text-decoration:underline; margin-top:0px; cursor:pointer; display:block;}
+#simplemodal-container button.button span {
+    position: relative;
+    outline: none;
+    display: inline-block;
+    padding: 5px 15px;
+    height: 30px;
+    background: #000;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+	color:#fff;
+    z-index: 1;
+}
+p.hide{ display:block;}
+#simplemodal-container .pad-top{ margin-top:0;}
+#simplemodal-container button.button:hover{ background:none!important;}
+#simplemodal-container button.button span:hover {
+transition:    none !important;
+	-webkit-transition:     none !important;
+	-moz-transition:    none !important;
+	-o-transition:    none !important;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+#simplemodal-container {
+height:300px;
+width:330px;
+padding-top:20px;
+}
+#simplemodal-container .block-title{ padding-top:20px; padding-bottom:20px; text-transform:none;}
+.adresa{ width:95%; text-align:left; padding-left:15px;}
+#simplemodal-container .input-box{ width:150px;}
+a.simplemodal-close{ margin-top:0px;}
+#simplemodal-container .pad-top{ margin-top:-30px; width:20px!important; padding-left:5px;}
+#simplemodal-container .form-subscribe-header{ margin-bottom:0;}
+#simplemodal-container  .block-subscribe input.input-text{ height:34px;}
+.input-box label{ display:none;}
+.input-box .input-box{ display:none;}
+
+}

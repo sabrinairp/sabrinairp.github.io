@@ -1,0 +1,143 @@
+html,
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.wrap_block_more_info {
+    padding: 40px;
+    background: #1d3035;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block_more_info {
+    max-width: 880px;
+    padding: 30px;
+    background: #fff;
+    font-family: Arial, sans-serif;
+    border: 1px solid #DADADA;
+    line-height: 20px;
+}
+
+.block_more_info h1 {
+    color: #1d3035;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.block_more_info p {
+    font-weight: normal;
+}
+
+.block_more_info b {
+    font-weight: bold;
+}
+
+.block_more_info ol {
+    list-style: decimal;
+    padding: 0 10px;
+}
+
+.block_more_info .s1 {
+    font-style: italic;
+    text-align: center;
+    margin: 40px 0 0 0;
+    font-weight: bold !important;
+}
+
+.block_more_info h2 {
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 26px;
+    margin-bottom: 10px;
+}
+
+.block_more_info OL {
+    counter-reset: item
+}
+
+.block_more_info ul {
+    padding-left: 20px;
+}
+
+.block_more_info LI {
+    display: block;
+}
+
+.europe {
+    counter-reset: list;
+}
+
+.europe h2:before {
+    content: counter(list) ") ";
+    counter-increment: list;
+}
+
+ul li {
+    list-style-type: none;
+    position: relative;
+}
+
+ul li::before {
+    content: '';
+    width: 5px;
+    height: 5px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: #333333;
+    display: block;
+    position: absolute;
+    top: 7px;
+    left: -10px;
+}
+
+@media screen and (max-width: 900px) {
+    .wrap_block_more_info {
+        padding: 20px;
+    }
+
+    .block_more_info {
+        max-width: 100%;
+        padding: 20px;
+        background: #fff;
+        font-family: Arial, sans-serif;
+        border: 1px solid #DADADA;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wrap_block_more_info {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .block_more_info{
+        padding: 10px;
+    }
+    .block_more_info h1{
+        font-size: 24px;
+    }
+    .block_more_info LI{
+        text-align: left;
+    }
+    .wrap_block_more_info{
+        padding: 0;
+    }
+}
